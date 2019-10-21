@@ -68,9 +68,7 @@
       <?php
 
       require('conexion.php');
-
-      $sql = mysqli_query($conexion, "SELECT * FROM participantes");
-
+      $sql = mysqli_query($conexion, "SELECT * FROM participantes WHERE estado = 1");
       while ($fila = mysqli_fetch_array($sql)) {
 
         echo '
