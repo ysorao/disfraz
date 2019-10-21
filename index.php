@@ -60,7 +60,7 @@
     <div class="alert alert-primary m-2" role="alert">
         Tus creditos disponibles: 0
     </div>
-    <div  id="resultado"  >
+    <div  id="resultado">
 
     </div>
 
